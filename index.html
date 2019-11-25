@@ -1,0 +1,107 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Stav počasí v ČR</title>
+<!-- For-Mobile-Apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Multiple Weather Widget Responsive, Login Form Web Template, Flat Pricing Tables, Flat Drop-Downs, Sign-Up Web Templates, Flat Web Templates, Login Sign-up Responsive Web Template, Smartphone Compatible Web Template, Free Web Designs for Nokia, Samsung, LG, Sony Ericsson, Motorola Web Design" />
+<!-- //For-Mobile-Apps -->
+<!-- Style -->
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+<!-- Style -->
+<!-- JavaScript -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script type="text/javascript" src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<!--script type="text/javascript" src="js/jquery.min.js"></script-->
+<!-- Javascript -->
+</head>
+<body>
+<h1>Aktuální stav počasí v&nbsp;České Republice</h1>
+<div class="content">
+	<div class="top">
+
+		<div class="hk">
+			<h2>Praha</h2>
+				<div class="info">
+					<div class="temp boxSize">{{ mainPrague.temp | decimal }}°C</div>
+					<div class="term boxSize cptlz">{{ weatherPrague.description }}</div>
+					<div class="clear"></div>
+				</div>
+		</div>
+
+		<div class="ln">
+			<h2>Česká Republika</h2>
+				<div class="info">
+					<div class="temp boxSize">{{ mainCzechRep.temp | decimal }}°C</div>
+					<div class="term boxSize cptlz">{{ weatherCzechRep.description }}</div>
+					<div class="clear"></div>
+				</div>
+		</div>
+
+		<div class="ny">
+			<h2>Brno</h2>
+				<div class="info">
+					<div class="temp boxSize">{{ mainBrno.temp | decimal }}°C</div>
+					<div class="term boxSize cptlz">{{ weatherBrno.description }}</div>
+					<div class="clear"></div>
+				</div>
+		</div>
+
+		<div class="clear"></div>
+	</div>
+
+	<div class="bottom">
+
+		<div class="sy">
+			<h2>Liberec</h2>
+				<div class="info">
+					<div class="temp boxSize">{{ mainLiberec.temp | decimal }}°C</div>
+					<div class="term boxSize cptlz">{{ weatherLiberec.description }}</div>
+					<div class="clear"></div>
+				</div>
+		</div>
+
+		<div class="ct">
+			<h2>České Budějovice</h2>
+				<div class="info">
+					<div class="temp boxSize">{{ mainBudejovice.temp | decimal }}°C</div>
+					<div class="term boxSize cptlz">{{ weatherBudejovice.description }}</div>
+					<div class="clear"></div>
+				</div>
+		</div>
+
+		<div class="rio">
+			<h2>Ostrava</h2>
+				<div class="info">
+					<div class="temp boxSize">{{ mainOstrava.temp | decimal }}°C</div>
+					<div class="term boxSize cptlz">{{ weatherOstrava.description }}</div>
+					<div class="clear"></div>
+				</div>
+		</div>
+
+		<div class="clear"></div>
+	</div>
+</div>
+
+<div class="footer">
+     <p>2019 | Josef Kolář | <a href="https://w3layouts.com">W3Layouts</a> | <a href="https://openweathermap.org">OpenWeather</a></p>
+</div>
+<!--script type="application/x-javascript">
+	addEventListener ("load",
+		function() {
+			setTimeout(hideURLbar, 0);
+		}, false);
+		function hideURLbar() {
+			window.scrollTo(0,1);
+		}
+</script-->
+<script src="scripts/main.js"></script>
+</body>
+</html>
