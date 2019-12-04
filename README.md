@@ -7,4 +7,4 @@
 3) Známé problémy:
 Funkce stránky korektně nefungují ve web. prohlížečích "Microsoft Internet explorer". Je možné, že tyto prohlížeče neumí korektně interpretovat moderní typ Javascriptu (domněnka).
 
-4) "Pocasi" vzniklo za použití javascriptového frameworku Vue.js. Data o stavu počasí jsou sbírány z veřejně dostupného souboru typu "JSON".
+4) "Pocasi" vzniklo za použití javascriptového frameworku Vue.js. Data o stavu počasí jsou sbírána z veřejně dostupného souboru typu "JSON".
